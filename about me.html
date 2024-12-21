@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUPQC</title>
+    <style>
+        body {
+            font-family: Lucida, sans-serif;
+            background-color: #dbdada; /* Light red background */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e63946; /* Red */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            gap: 20px;
+        }
+        .sidebar, .main-content {
+            background-color: #dbdada; /* Lighter red for content background */
+            box-shadow: 0 4px 6px rgba(230, 57, 70, 0.3); /* Slight red shadow */
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .sidebar {
+            width: 30%;
+        }
+        .main-content {
+            width: 70%;
+        }
+        .profile-pic img {
+            display: block;
+            margin: 20px auto 0;
+            border: 3px solid #e63946; /* Red border for profile picture */
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            object-position: top;
+        }
+        h1  {
+            color: #dddcdc; /* Red headings */
+        }
+        h2, h3 
+        {
+            color:#e63946
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #e63946; /* Red table borders */
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        footer {
+            background-color: #e63946; /* Red footer */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .btn {
+            display: block;
+            text-align: center;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #e63946; /* Red button */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+            box-shadow: 0 4px 6px rgba(230, 57, 70, 0.3); /* Red shadow */
+        }
+        .btn:hover {
+            background-color: #b02834; /* Darker red on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PUPQC</h1>
+    </header>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile-pic">
+         <img src="me.jpg" alt="Profile Picture">
+                <!--  profile picture -->
+           </div>
+          <p><strong>Enrolled in PUPQC since:</strong> September 9 </p>
+           <p><strong>Hometown:<br></strong>San Jose Delmonte Bulacan</p>
+          <a href="https://www.facebook.com/profile.php?id=100084112726800" class="btn">Add as Friend</a>
+            <a href="https://www.facebook.com/profile.php?id=100084112726800" class="btn">Send Message</a>
+        </div>
+
+        <!-- Main -->
+        <div class="main-content">
+            <h2>Get to know me</h2>
+            <p>
+                Hi, I am Kendall Xavier R. Solis currently studying BSIT at PUP QC. <BR>
+                    I enjoying learning how to code and studying new languages even if I am a complete novice at this field.<BR> During my free time I usually play games and watch movie or tv series.<BR>
+                     I also have a hobby at doing voluntary work for health care fields, I am a part of our church medical ministry and PUP ROTC Medic unit.
+            </p>
+            <h3>My Interests  </h3>
+            <ul>
+                <li>League of Legends</li>
+               <li>APEX</li>
+            <li>Dota 2</li>
+            <li>Arcane</li>
+                <li>The Big Bang theory</li>
+             <li>Suits</li>
+                <li>Bleach TYBW</li>
+              <li>Hannibal</li>
+            </ul>
+            <h3>My Weekly Schedule</h3>
+            <table>
+                <tr>
+                    <td>Monday</td>
+              <td>MMW : 10:30 - 12:00 <br>
+                        Programming : 1:30 - 3:30 <br>
+                        PATHFIT: 4:30 - 6:30 
+                        </td> 
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>N/A</td>   
+                </tr> 
+           <tr>
+                    <td>wednesday</td>
+                   <td>Fiipinolohiya : 1:30 - 4:30</td>   
+                </tr> 
+                <tr>
+                    <td>Thursday</td>
+                    <td>ITC : 1:00 - 9:00</td>   
+              </tr> 
+                <tr>
+                    <td>Friday</td>
+                    <td>Programming : 10:00 - 12:00 (Online)</td>   
+                </tr> 
+          <tr>
+                    <td>Saturday</td>
+                    <td>PurpCom 7:00 - 10:00<br> 
+                        Accounting : 10:00 - 12:00 </td>   
+             </tr> 
+                <tr>
+                   <td>Sunday</td>
+                    <td>ROTC : 4:30 - 5:00 (AT STA MESA)</td>   
+                </tr> 
+            </table>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 PUPQC - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
